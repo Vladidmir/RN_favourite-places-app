@@ -1,4 +1,3 @@
-import { View } from "react-native";
 import PlacesList from "../components/PlacesList";
 
 const AllPlaces = () => {

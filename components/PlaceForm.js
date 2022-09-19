@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, ScrollView, TextInput, StyleSheet } from "react-native";
 
 import ImagePicker from "./ImagePicker";
+import LocationPicker from "./LocationPicker";
 
 import { Colors } from "../constants/colors";
 
@@ -22,6 +23,7 @@ const PlaceForm = () => {
         />
       </View>
       <ImagePicker />
+      <LocationPicker />
     </ScrollView>
   );
 };
